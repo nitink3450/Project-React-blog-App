@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Card1 from '../Components/Cards/Card1'
 import LatestArticle from './LatestArticles/LatestArticle';
 import SideBar from './SideBar/SideBar';
@@ -22,10 +22,4 @@ const Bollywood = () => {
   )
 }
 export default Bollywood;
-{/* <section className='container LatestSide'>
-                <LatestArticle />
-                <Tpost />
-              </section>
-              <section className='container'>
-                <Life key={val.id} val={val} />
-              </section> */}
+
